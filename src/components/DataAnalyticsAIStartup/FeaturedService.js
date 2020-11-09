@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import icon1 from '../../assets/images/icons/icon1.png'
-import icon2 from '../../assets/images/icons/icon2.png'
-import icon3 from '../../assets/images/icons/icon3.png'
+import icon1 from '../../assets/images/icons/impressora3d.png'
+import icon2 from '../../assets/images/icons/arduino.png'
+import icon3 from '../../assets/images/icons/cloud.png'
 import shape2 from '../../assets/images/services/service-shape2.png'
 
 const FeaturedService = () => {
@@ -17,14 +17,14 @@ const FeaturedService = () => {
                             </div>
                             <h3>
                                 <Link to="/service-details">
-                                    Marketing Analytics
+                                    Impressora 3D
                                 </Link>
                             </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                            <p>Nosso Hacker Space conta com uma impressora Ender3 e filamentos em PLA para que a comunidade possa tirar os projetos do papel</p>
 
                             <Link to="/service-details" className="default-btn">
                                 <i className="flaticon-right"></i> 
-                                Read More <span></span>
+                                Saber Mais <span></span>
                             </Link>
 
                             <div className="shape1">
@@ -40,14 +40,14 @@ const FeaturedService = () => {
                             </div>
                             <h3>
                                 <Link to="/service-details">
-                                    Consumer Analytics
+                                    Arduino e IOT
                                 </Link>
                             </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                            <p>Kits de eletrônica com arduino para iniciante e avançado estão disponiveis, bem como kits Lora e IOT com Esp32!.</p>
                             
                             <Link to="/service-details" className="default-btn">
                                 <i className="flaticon-right"></i> 
-                                Read More <span></span>
+                                Saber Mais <span></span>
                             </Link>
 
                             <div className="shape1">
@@ -63,14 +63,14 @@ const FeaturedService = () => {
                             </div>
                             <h3>
                                 <Link to="/service-details">
-                                    Sales Analytics
+                                    Cloud Computing
                                 </Link>
                             </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                            <p>Contamos com a ajuda da computação em nuvem para deploy de aplicações e aprendizado de novas tecnologias!</p>
                             
                             <Link to="/service-details" className="default-btn">
                                 <i className="flaticon-right"></i> 
-                                Read More <span></span>
+                                Saber Mais <span></span>
                             </Link>
 
                             <div className="shape1">
