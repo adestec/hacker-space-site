@@ -14,47 +14,47 @@ const OurMission = () => {
                         <div className="our-mission-content">
                             <div className="content">
                                 <span className="sub-title">
-                                    <img src={starIcon} alt="banner" /> Our Mission
+                                    <img src={starIcon} alt="banner" /> Nossa Missão
                                 </span>
-                                <h2>Data Science & Data Analysis Agency</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                                <h2>Desenvolvimento através da prática!</h2>
+                                <p>Nosso objetivo é unir a comunidade através da tecnologia, poder ajudar e inspirar as novas gerações a criarem coisas fantásticas!</p>
                                 <ul className="our-mission-list">
                                     <li>
                                         <i className="flaticon-tick"></i>
-                                        Global Experience
+                                        Ambiente Seguro
                                         <img src={shape2} alt="banner" />
                                     </li>
                                     <li>
                                         <i className="flaticon-tick"></i>
-                                        Value for Results
+                                        Interação com Comunidade
                                         <img src={shape2} alt="banner" />
                                     </li>
                                     <li>
                                         <i className="flaticon-tick"></i>
-                                        User Prespective
+                                        Projetos
                                         <img src={shape2} alt="banner" />
                                     </li>
                                     <li>
                                         <i className="flaticon-tick"></i>
-                                        Business Prespective
+                                        Mentorias
                                         <img src={shape2} alt="banner" />
                                     </li>
                                     <li>
                                         <i className="flaticon-tick"></i>
-                                        Expert Prepective
+                                        Palestras
                                         <img src={shape2} alt="banner" />
                                     </li>
                                     <li>
                                         <i className="flaticon-tick"></i>
-                                        Retail Solutions
+                                        Diversão
                                         <img src={shape2} alt="banner" />
                                     </li>
                                 </ul>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                                <p>Se torne um membro de nossa comunidade!.</p>
                                 
-                                <Link to="/about-us-two" className="default-btn">
+                                <Link to="https://forms.gle/vH6YvmtNa4JsE7QK9" className="default-btn">
                                     <i className="flaticon-right"></i>
-                                    Read More
+                                    Inscrição
                                     <span></span>
                                 </Link>
                             </div>
