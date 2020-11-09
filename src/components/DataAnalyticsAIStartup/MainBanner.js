@@ -39,18 +39,18 @@ const MainBanner = () => {
                         <div className="col-lg-5 col-md-12">
                             <div className="banner-content">
                                 <ReactWOW delay='.1s' animation='fadeInLeft'>
-                                    <h1>Data Analytics Consulting Services</h1>
+                                    <h1>Adestec Hacker Space</h1>
                                 </ReactWOW>
 
                                 <ReactWOW delay='.1s' animation='fadeInLeft'>
-                                    <p>World leading reliable research & AI based Data Analytics solutions for Big Data companies and consumer business products. Drive your success without stress!</p>
+                                    <p>Um local de desenvolvimento, aprendizado e diversão</p>
                                 </ReactWOW>
 
                                 <ReactWOW delay='.1s' animation='fadeInRight'>
                                     <div className="btn-box">
                                         <Link to="/about-us" className="default-btn">
                                             <i className="flaticon-right"></i> 
-                                            About Us <span></span>
+                                            Sobre o Espaço <span></span>
                                         </Link>
 
                                         <Link 
@@ -58,7 +58,7 @@ const MainBanner = () => {
                                             onClick={e => {e.preventDefault(); openModal()}}
                                             className="video-btn popup-youtube"
                                         >
-                                            <i className="flaticon-google-play"></i> Watch Video
+                                            <i className="flaticon-google-play"></i> Video de Apresentação
                                         </Link>
                                     </div>
                                 </ReactWOW>
