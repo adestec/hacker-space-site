@@ -24,46 +24,46 @@ const AboutUs = () => {
                             <div className="content">
                                 <span className="sub-title">
                                     <img src={starIcon} alt="banner" /> 
-                                    About Us
+                                    Sobre o Espaço
                                 </span>
-                                <h2>Business Analytics For Data-Driven Solutions</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                                <h2>Equipamentos disponiveis para comunidade e startups</h2>
+                                <p>Contamos com uma gama completa de equipamentos para prototipação, testes, e criação.</p>
                                 <ul className="about-list">
                                     <li>
                                         <i className="flaticon-tick"></i>
-                                        Big Data
+                                        Impressora 3D
                                         <img src={shape2} alt="banner" />
                                     </li>
                                     <li>
                                         <i className="flaticon-tick"></i>
-                                        Data Visualization
+                                        Kits de Robótica
                                         <img src={shape2} alt="banner" />
                                     </li>
                                     <li>
                                         <i className="flaticon-tick"></i>
-                                        Data Warehousing
+                                        Kits Lora
                                         <img src={shape2} alt="banner" />
                                     </li>
                                     <li>
                                         <i className="flaticon-tick"></i>
-                                        Data Management
+                                        Kits IOT
                                         <img src={shape2} alt="banner" />
                                     </li>
                                     <li>
                                         <i className="flaticon-tick"></i>
-                                        Business Intelligence
+                                        Raspberrys PI 4
                                         <img src={shape2} alt="banner" />
                                     </li>
                                     <li>
                                         <i className="flaticon-tick"></i>
-                                        Business Intelligence
+                                        Cloud Computing
                                         <img src={shape2} alt="banner" />
                                     </li>
                                 </ul>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                                <p>Nossa estrutura é de uso gratuito, e para que isso seja possivel nós contamos com a ajuda de todos os participantes!</p>
                                 <Link to="/about-us" className="default-btn">
                                     <i className="flaticon-right"></i> 
-                                    More About Us <span></span>
+                                    + Informações <span></span>
                                 </Link>
                             </div>
                         </div>
