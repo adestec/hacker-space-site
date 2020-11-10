@@ -10,10 +10,10 @@ const MembershipLevels = () => {
         <Layout>
             <Navbar />
             <PageBanner
-                pageTitle="Member Ship Levels" 
+                pageTitle="Planos para Apoiadores" 
                 homePageText="Home" 
                 homePageUrl="/" 
-                activePageText="Member Ship Levels" 
+                activePageText="Planos" 
             />
 
             <div className="membership-levels-area ptb-100">
@@ -23,33 +23,33 @@ const MembershipLevels = () => {
                             <thead>
                                 <tr>
                                     <th>
-                                        <span className="price">$500</span>
-                                        <span className="title">Silver Membership</span>
-                                        <span className="desc">You can view few features</span>
+                                        <span className="price">R$100,00 Mês</span>
+                                        <span className="title">Plano Amigo</span>
+                                        <span className="desc">Incluso no plano</span>
                                     </th>
                                     <th>
-                                        <span className="price">$1,000</span>
-                                        <span className="title">Gold Membership</span>
-                                        <span className="desc">You can view most features</span>
+                                        <span className="price">R$200,00 Mês</span>
+                                        <span className="title">Plano Parceiro</span>
+                                        <span className="desc">Incluso no plano</span>
                                     </th>
                                     <th>
-                                        <span className="price">$1,500</span>
-                                        <span className="title">Diamond Membership</span>
-                                        <span className="desc">You can view all features</span>
+                                        <span className="price">R$300,00 Mês</span>
+                                        <span className="title">Plano Padrinho</span>
+                                        <span className="desc">Incluso no plano</span>
                                     </th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Number of features</td>
+                                    <td>Postagens de Acradescimento mês</td>
+                                    <td>1</td>
                                     <td>4</td>
                                     <td>8</td>
-                                    <td>15</td>
                                 </tr>
                                 <tr>
                                     <td>
                                         <Link to="#">
-                                            Investment Fundamentals & Data Analytics
+                                            Prestação de contas mensal
                                         </Link>
                                     </td>
                                     <td className="item-check"><i className='bx bx-check'></i></td>
@@ -59,7 +59,7 @@ const MembershipLevels = () => {
                                 <tr>
                                     <td>
                                         <Link to="#">
-                                            Hands-On Python & R In Data Science
+                                           Opcão 2
                                         </Link>
                                     </td>
                                     <td className="item-check"><i className='bx bx-check'></i></td>
@@ -69,177 +69,7 @@ const MembershipLevels = () => {
                                 <tr>
                                     <td>
                                         <Link to="#">
-                                            Complete Data Science Bootcamp
-                                        </Link>
-                                    </td>
-                                    <td className="item-check"><i className='bx bx-check'></i></td>
-                                    <td className="item-check"><i className='bx bx-check'></i></td>
-                                    <td className="item-check"><i className='bx bx-check'></i></td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <Link to="#">
-                                            Programming MasterclassName for Developers
-                                        </Link>
-                                    </td>
-                                    <td className="item-none"><i className='bx bx-x'></i></td>
-                                    <td className="item-check"><i className='bx bx-check'></i></td>
-                                    <td className="item-check"><i className='bx bx-check'></i></td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <Link to="#">
-                                            Hands-On Artificial Neural Networks
-                                        </Link>
-                                    </td>
-                                    <td className="item-none"><i className='bx bx-x'></i></td>
-                                    <td className="item-check"><i className='bx bx-check'></i></td>
-                                    <td className="item-check"><i className='bx bx-check'></i></td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <Link to="#">
-                                            PRINCE2® Practitioner Certification Training
-                                        </Link>
-                                    </td>
-                                    <td className="item-none"><i className='bx bx-x'></i></td>
-                                    <td className="item-check"><i className='bx bx-check'></i></td>
-                                    <td className="item-check"><i className='bx bx-check'></i></td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <Link to="#">
-                                            PMI-RMP® Certification Training
-                                        </Link>
-                                    </td>
-                                    <td className="item-none"><i className='bx bx-x'></i></td>
-                                    <td className="item-none"><i className='bx bx-x'></i></td>
-                                    <td className="item-check"><i className='bx bx-check'></i></td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <Link to="#">
-                                            PRINCE2® Foundation Certification Training
-                                        </Link>
-                                    </td>
-                                    <td className="item-none"><i className='bx bx-x'></i></td>
-                                    <td className="item-none"><i className='bx bx-x'></i></td>
-                                    <td className="item-check"><i className='bx bx-check'></i></td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <Link to="#">
-                                            PMP® Plus
-                                        </Link>
-                                    </td>
-                                    <td className="item-none"><i className='bx bx-x'></i></td>
-                                    <td className="item-none"><i className='bx bx-x'></i></td>
-                                    <td className="item-check"><i className='bx bx-check'></i></td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <Link to="#">
-                                            PMP® Renewal Pack
-                                        </Link>
-                                    </td>
-                                    <td className="item-none"><i className='bx bx-x'></i></td>
-                                    <td className="item-check"><i className='bx bx-check'></i></td>
-                                    <td className="item-check"><i className='bx bx-check'></i></td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <Link to="#">
-                                            Digital Project Manager
-                                        </Link>
-                                    </td>
-                                    <td className="item-none"><i className='bx bx-x'></i></td>
-                                    <td className="item-none"><i className='bx bx-x'></i></td>
-                                    <td className="item-check"><i className='bx bx-check'></i></td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <Link to="#">
-                                            Agile Project Management; Agile Delivery
-                                        </Link>
-                                    </td>
-                                    <td className="item-none"><i className='bx bx-x'></i></td>
-                                    <td className="item-none"><i className='bx bx-x'></i></td>
-                                    <td className="item-check"><i className='bx bx-check'></i></td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <Link to="#">
-                                            Vue JS 2 - The Complete Guide
-                                        </Link>
-                                    </td>
-                                    <td className="item-none"><i className='bx bx-x'></i></td>
-                                    <td className="item-none"><i className='bx bx-x'></i></td>
-                                    <td className="item-check"><i className='bx bx-check'></i></td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <Link to="#">
-                                            Everything You Need to Program in Python
-                                        </Link>
-                                    </td>
-                                    <td className="item-none"><i className='bx bx-x'></i></td>
-                                    <td className="item-none"><i className='bx bx-x'></i></td>
-                                    <td className="item-check"><i className='bx bx-check'></i></td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <Link to="#">
-                                            Mathematical Foundation For Machine Learning
-                                        </Link>
-                                    </td>
-                                    <td className="item-none"><i className='bx bx-x'></i></td>
-                                    <td className="item-none"><i className='bx bx-x'></i></td>
-                                    <td className="item-check"><i className='bx bx-check'></i></td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <Link to="#">
-                                            Drawing Course - Beginner to Advanced
-                                        </Link>
-                                    </td>
-                                    <td className="item-none"><i className='bx bx-x'></i></td>
-                                    <td className="item-none"><i className='bx bx-x'></i></td>
-                                    <td className="item-check"><i className='bx bx-check'></i></td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <Link to="#">
-                                            Deep Learning and Artificial Intelligence
-                                        </Link>
-                                    </td>
-                                    <td className="item-none"><i className='bx bx-x'></i></td>
-                                    <td className="item-none"><i className='bx bx-x'></i></td>
-                                    <td className="item-check"><i className='bx bx-check'></i></td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <Link to="#">
-                                            Information About UI/UX Design Degree
-                                        </Link>
-                                    </td>
-                                    <td className="item-check"><i className='bx bx-check'></i></td>
-                                    <td className="item-check"><i className='bx bx-check'></i></td>
-                                    <td className="item-check"><i className='bx bx-check'></i></td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <Link to="#">
-                                            Photography Photo modify and Beautiful
-                                        </Link>
-                                    </td>
-                                    <td className="item-none"><i className='bx bx-x'></i></td>
-                                    <td className="item-none"><i className='bx bx-x'></i></td>
-                                    <td className="item-check"><i className='bx bx-check'></i></td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <Link to="#">
-                                            Professional IT Expert Certificate Course
+                                            Utilização do espaço para treinamento de equipe.
                                         </Link>
                                     </td>
                                     <td className="item-none"><i className='bx bx-x'></i></td>
