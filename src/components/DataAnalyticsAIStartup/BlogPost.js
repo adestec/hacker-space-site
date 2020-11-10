@@ -17,10 +17,10 @@ const OurBlog = () => {
                 <div className="section-title">
                     <span className="sub-title">
                         <img src={starIcon} alt="blog" /> 
-                        Our Blog
+                        Blog
                     </span>
-                    <h2>Latest Valuable Insights</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                    <h2>Últimas Postagens</h2>
+                    <p>Acompanhe as novidades!.</p>
                 </div>
 
                 <div className="row align-items-center">
