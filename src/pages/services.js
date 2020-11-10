@@ -11,10 +11,10 @@ const Services = () => {
         <Layout>
             <Navbar />
             <PageBanner
-                pageTitle="Services" 
+                pageTitle="Apoiadores" 
                 homePageText="Home" 
                 homePageUrl="/" 
-                activePageText="Services" 
+                activePageText="Apoiadores" 
             />
             <ServicesOne />
             <StartProject />
