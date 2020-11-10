@@ -15,8 +15,8 @@ const HowItWork = () => {
                         <img src={starIcon} alt="banner" /> 
                         Seja um membro!
                     </span>
-                    <h2>Our Data Analytics Process</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                    <h2>Roadmap para se tornar um membro.</h2>
+                    <p>Se torne um membro ativo da nossa comunidade!</p>
                 </div>
 
                 <div className="row align-items-center m-0">
@@ -35,7 +35,7 @@ const HowItWork = () => {
                                             <div className="image">
                                                 <img src={small1} alt="banner" />
                                             </div>
-                                            <h3>Frame the Problem</h3>
+                                            <h3>Faça sua inscrição</h3>
                                             <div className="number">1</div>
                                         </div>
                                     </div>
@@ -46,7 +46,7 @@ const HowItWork = () => {
                                             <div className="image">
                                                 <img src={small1} alt="banner" />
                                             </div>
-                                            <h3>Collect the Raw Data</h3>
+                                            <h3>Compareça no Hacker Space</h3>
                                             <div className="number">2</div>
                                         </div>
                                     </div>
@@ -57,7 +57,7 @@ const HowItWork = () => {
                                             <div className="image">
                                                 <img src={small1} alt="banner" />
                                             </div>
-                                            <h3>Process the Data</h3>
+                                            <h3>Desenvolva suas Habilidades</h3>
                                             <div className="number">3</div>
                                         </div>
                                     </div>
@@ -68,7 +68,7 @@ const HowItWork = () => {
                                             <div className="image">
                                                 <img src={small4} alt="banner" />
                                             </div>
-                                            <h3>Explore the Data</h3>
+                                            <h3>Participe de Projetos</h3>
                                             <div className="number">4</div>
                                         </div>
                                     </div>
@@ -79,7 +79,7 @@ const HowItWork = () => {
                                             <div className="image">
                                                 <img src={small5} alt="banner" />
                                             </div>
-                                            <h3>Perform Analysis</h3>
+                                            <h3>Ganhe Pontos</h3>
                                             <div className="number">5</div>
                                         </div>
                                     </div>
@@ -90,7 +90,7 @@ const HowItWork = () => {
                                             <div className="image">
                                                 <img src={small6} alt="banner" />
                                             </div>
-                                            <h3>Communicate Results</h3>
+                                            <h3>Se Divirta!</h3>
                                             <div className="number">6</div>
                                         </div>
                                     </div>
