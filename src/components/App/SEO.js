@@ -5,8 +5,8 @@ const SEO = () => {
     return (
         <div>
             <Helmet>
-                <title>Rewy - Gatsby IT Startup Templates Collection</title>
-                <meta name="description" content="Rewy - React Gatsby IT Startup Templates Collection" />
+                <title>Adestec Hacker Space</title>
+                <meta name="description" content="Adestec Hacker Space - Hacker Space para desenvolvimento de projetos aberto a comunidade" />
                 <meta name="og:title" property="og:title" content="Rewy - React Gatsby IT Startup Templates Collection"></meta>
                 <meta name="twitter:card" content="Rewy - React Gatsby IT Startup Templates Collection"></meta>
                 <link rel="canonical" href="https://rewy-react.envytheme.com/"></link>
