@@ -79,18 +79,18 @@ const MembershipLevels = () => {
                                 <tr>
                                     <td></td>
                                     <td>
-                                        <Link to="#" className="select-btn">
-                                            Get it now
+                                        <Link to="https://docs.google.com/forms/d/e/1FAIpQLSfdAqPwTrA9K63HhPIUSjnnDNyGk9lN12YMUKK9nKqR6qsiyg/viewform?usp=sf_link" className="select-btn">
+                                            Apoiar
                                         </Link>
                                     </td>
                                     <td>
-                                        <Link to="#" className="select-btn">
-                                            Get it now
+                                        <Link to="https://docs.google.com/forms/d/e/1FAIpQLSfdAqPwTrA9K63HhPIUSjnnDNyGk9lN12YMUKK9nKqR6qsiyg/viewform?usp=sf_link" className="select-btn">
+                                            Apoiar
                                         </Link>
                                     </td>
                                     <td>
-                                        <Link to="#" className="select-btn">
-                                            Get it now
+                                        <Link to="https://docs.google.com/forms/d/e/1FAIpQLSfdAqPwTrA9K63HhPIUSjnnDNyGk9lN12YMUKK9nKqR6qsiyg/viewform?usp=sf_link" className="select-btn">
+                                            Apoiar
                                         </Link>
                                     </td>
                                 </tr>
