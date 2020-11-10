@@ -10,10 +10,10 @@ const Team = () => {
         <Layout>
             <Navbar />
             <PageBanner
-                pageTitle="Team" 
+                pageTitle="Membros" 
                 homePageText="Home" 
                 homePageUrl="/" 
-                activePageText="Team" 
+                activePageText="Membros" 
             />
             <TeamStyleOne />
             <Footer />
