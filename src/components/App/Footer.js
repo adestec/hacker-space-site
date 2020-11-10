@@ -16,27 +16,19 @@ const Footer = () => {
                             <a href="/" className="logo">
                                 <img src={logo} alt="logo" />
                             </a>
-                            <p>Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</p>
+                            <p>O Adestec Hacker Space é um local criado pela comunidade para comunidade, idealizado e desenvolvido pela Adestec, ele tem como objetivo
+                                proporcionar um ambiente de interação, aprendizado, e diversão para toda comunidade.
+                            </p>
 
                             <ul className="social-link">
                                 <li>
-                                    <Link to="#" className="d-block" target="_blank" rel="noreferrer">
+                                    <Link to="https://www.facebook.com/Adestec" className="d-block" target="_blank" rel="noreferrer">
                                         <i className='bx bxl-facebook'></i>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="#" className="d-block" target="_blank" rel="noreferrer">
-                                        <i className='bx bxl-twitter'></i>
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link to="#" className="d-block" target="_blank" rel="noreferrer">
+                                    <Link to="https://www.instagram.com/adestecobrapadre/" className="d-block" target="_blank" rel="noreferrer">
                                         <i className='bx bxl-instagram'></i>
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link to="#" className="d-block" target="_blank" rel="noreferrer">
-                                        <i className='bx bxl-linkedin'></i>
                                     </Link>
                                 </li>
                             </ul>
@@ -55,31 +47,31 @@ const Footer = () => {
                                 </li>
                                     <li>
                                     <Link to="/about-us">
-                                        About
+                                        Parceiros
                                     </Link>
                                 </li>
                                 <li>
                                     <Link to="/case-studies">
-                                        Case Studies
+                                        Projetos
                                     </Link>
                                 </li>
                                 <li>
                                     <Link to="/blog">
-                                        Our Blog
+                                        Blog
                                     </Link>
                                 </li>
                                 <li>
                                     <Link to="/contact">
-                                        Contact
+                                        Contato
                                     </Link>
                                 </li>
                             </ul>
                         </div>
                     </div>
 
-                    <div className="col-lg-2 col-sm-6">
+                    {/* <div className="col-lg-2 col-sm-6">
                         <div className="single-footer-widget">
-                            <h3>Resources</h3>
+                            <h3>Recursos</h3>
 
                             <ul className="footer-links-list">
                                 <li>
@@ -109,28 +101,28 @@ const Footer = () => {
                                 </li>
                             </ul>
                         </div>
-                    </div>
+                    </div> */}
 
                     <div className="col-lg-4 col-sm-6">
                         <div className="single-footer-widget">
-                            <h3>Address</h3>
+                            <h3>Endereço</h3>
 
                             <ul className="footer-contact-info">
                                 <li>
                                     <i className='bx bx-map'></i> 
-                                    175 5th Ave, New York, NY 10010, <br /> United States
+                                     Rua dos Coqueiros 1000, Sinop, Mato Grosso, <br /> Brasil
                                 </li>
                                 <li>
                                     <i className='bx bx-phone-call'></i>
-                                    <a href="tel:+44587154756">+1 (123) 456 7890</a>
+                                    <a href="tel:+44587154756">(66) 3531-2259</a>
                                 </li>
                                 <li>
                                     <i className='bx bx-envelope'></i>
-                                    <a href="mailto:hello@rewy.com">hello@rewy.com</a>
+                                    <a href="mailto:hello@rewy.com">informacoes@adestec.com.br</a>
                                 </li>
                                 <li>
                                     <i className='bx bxs-inbox'></i>
-                                    <a href="tel:+557854578964">+55 785 4578964</a>
+                                    <a href="tel:+557854578964">(66)</a>
                                 </li>
                             </ul>
                         </div>
@@ -140,10 +132,10 @@ const Footer = () => {
                 <div className="footer-bottom-area">
                     <div className="row align-items-center">
                         <div className="col-lg-6 col-md-6">
-                            <p>Copyright @{currentYear} <strong>Rewy</strong> All rights reserved <a target="_blank" href="https://envytheme.com/" rel="noreferrer">EnvyTheme</a></p>
+                            <p>Copyright @{currentYear} <a target="_blank" href="www.zepelim.dev" rel="noreferrer">Zepelim Fábrica de Software</a></p>
                         </div>
 
-                        <div className="col-lg-6 col-md-6">
+                        {/* <div className="col-lg-6 col-md-6">
                             <ul>
                                 <li>
                                     <Link to="/privacy-policy">
@@ -156,7 +148,7 @@ const Footer = () => {
                                     </Link>
                                 </li>
                             </ul>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
