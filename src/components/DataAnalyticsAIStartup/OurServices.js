@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import starIcon from '../../assets/images/star-icon.png'
-import icon1 from '../../assets/images/services/service-icon1.png'
-import icon2 from '../../assets/images/services/service-icon2.png'
-import icon3 from '../../assets/images/services/service-icon3.png'
+import icon1 from '../../assets/images/services/adestec.png'
+import icon2 from '../../assets/images/services/eletronop.png'
+import icon3 from '../../assets/images/services/zepelim-icone.png'
 import icon4 from '../../assets/images/services/service-icon4.png'
 import icon5 from '../../assets/images/services/service-icon5.png'
 import icon6 from '../../assets/images/services/service-icon6.png'
@@ -17,10 +17,11 @@ const OurServices = () => {
                 <div className="section-title">
                     <span className="sub-title">
                         <img src={starIcon} alt="image" /> 
-                        Our Services
+                        Apoiadores
                     </span>
-                    <h2>We Offer Professional Solutions For Business</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                    <h2>Nosso espaço só existe devido a nossos apoiadores!
+                    </h2>
+                    <p>Promover conhecimento para todos é nossa principal missão, e contamos com nossos padrinhos para realizar essa tarefa.</p>
                 </div>
 
                 <div className="row">
@@ -30,15 +31,15 @@ const OurServices = () => {
                                 <img src={icon1} alt="image" />
                             </div>
                             <h3>
-                                <Link to="/service-details">
-                                    Customer Analytics
+                                <Link to="https://adestec.org.br/">
+                                    Adestec Obra Padre Pio
                                 </Link>
                             </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna doloresssit amet aliqua.</p>
+                            <p><h2>Padrinho</h2></p>
                                 
-                            <Link to="/service-details" className="default-btn">
+                            <Link to="https://adestec.org.br/" className="default-btn">
                                 <i className="flaticon-right"></i> 
-                                Read More <span></span>
+                                Site <span></span>
                             </Link>
 
                             <div className="shape1">
@@ -56,15 +57,15 @@ const OurServices = () => {
                                 <img src={icon2} alt="image" />
                             </div>
                             <h3>
-                                <Link to="/service-details">
-                                    Risk Analytics
+                                <Link to="https://www.facebook.com/eletronop.materiaiseletricos/">
+                                    Eletronop
                                 </Link>
                             </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna doloresssit amet aliqua.</p>
+                            <p><h2>Padrinho</h2></p>
 
-                            <Link to="/service-details" className="default-btn">
+                            <Link to="https://www.facebook.com/eletronop.materiaiseletricos/" className="default-btn">
                                 <i className="flaticon-right"></i> 
-                                Read More <span></span>
+                                Site <span></span>
                             </Link>
                             
                             <div className="shape1">
@@ -82,15 +83,15 @@ const OurServices = () => {
                                 <img src={icon3} alt="image" />
                             </div>
                             <h3>
-                                <Link to="/service-details">
-                                    Social Media Analytics
+                                <Link to="https://zepelim.netlify.app/">
+                                    Zepelim Fábrica de Software
                                 </Link>
                             </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna doloresssit amet aliqua.</p>
+                            <p><h2>Padrinho</h2></p>
                             
-                            <Link to="/service-details" className="default-btn">
+                            <Link to="https://zepelim.netlify.app/" className="default-btn">
                                 <i className="flaticon-right"></i> 
-                                Read More <span></span>
+                                Site <span></span>
                             </Link>
                             
                             <div className="shape1">
@@ -101,90 +102,11 @@ const OurServices = () => {
                             </div>
                         </div>
                     </div>
-                    
-                    <div className="col-lg-4 col-md-6 col-sm-6">
-                        <div className="single-services-item">
-                            <div className="icon">
-                                <img src={icon4} alt="image" />
-                            </div>
-                            <h3>
-                                <Link to="/service-details">
-                                    Real Time Analytics
-                                </Link>
-                            </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna doloresssit amet aliqua.</p>
-                            
-                            <Link to="/service-details" className="default-btn">
-                                <i className="flaticon-right"></i> 
-                                Read More <span></span>
-                            </Link>
-                            
-                            <div className="shape1">
-                                <img src={shape1} alt="image" />
-                            </div>
-                            <div className="shape2">
-                                <img src={shape2} alt="image" />
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div className="col-lg-4 col-md-6 col-sm-6">
-                        <div className="single-services-item">
-                            <div className="icon">
-                                <img src={icon5} alt="image" />
-                            </div>
-                            <h3>
-                                <Link to="/service-details">
-                                    Big Data Analytics
-                                </Link>
-                            </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna doloresssit amet aliqua.</p>
-                            
-                            <Link to="/service-details" className="default-btn">
-                                <i className="flaticon-right"></i> 
-                                Read More <span></span>
-                            </Link>
-                            
-                            <div className="shape1">
-                                <img src={shape1} alt="image" />
-                            </div>
-                            <div className="shape2">
-                                <img src={shape2} alt="image" />
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div className="col-lg-4 col-md-6 col-sm-6">
-                        <div className="single-services-item">
-                            <div className="icon">
-                                <img src={icon6} alt="image" />
-                            </div>
-                            <h3>
-                                <Link to="/service-details">
-                                    Business Analytics
-                                </Link>
-                            </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna doloresssit amet aliqua.</p>
-                            
-                            <Link to="/service-details" className="default-btn">
-                                <i className="flaticon-right"></i> 
-                                Read More <span></span>
-                            </Link>
-                            
-                            <div className="shape1">
-                                <img src={shape1} alt="image" />
-                            </div>
-                            <div className="shape2">
-                                <img src={shape2} alt="image" />
-                            </div>
-                        </div>
-                    </div>
-
                     <div className="col-lg-12 col-md-12">
                         <div className="load-more-btn text-center">
-                            <Link to="/services" className="default-btn">
-                                <i className="flaticon-refresh"></i> 
-                                Load More <span></span>
+                            <Link to="https://docs.google.com/forms/d/e/1FAIpQLSfdAqPwTrA9K63HhPIUSjnnDNyGk9lN12YMUKK9nKqR6qsiyg/viewform?usp=sf_link" className="default-btn">
+                                <i className="flaticon-money"></i> 
+                                Torne-se um Apoiador <span></span>
                             </Link>
                         </div>
                     </div>
