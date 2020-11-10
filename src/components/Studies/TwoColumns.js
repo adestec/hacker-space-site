@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import project1 from '../../assets/images/projects/project1.jpg'
+import project1 from '../../assets/images/projects/proteses.png'
 import project2 from '../../assets/images/projects/project2.jpg'
 import project3 from '../../assets/images/projects/project3.jpg'
 import project4 from '../../assets/images/projects/project4.jpg'
@@ -26,15 +26,15 @@ const TwoColumns = () => {
                             <div className="content">
                                 <h3>
                                     <Link to="/case-studies-details">
-                                        Movie Recommendation
+                                        Proteses Infantis
                                     </Link>
                                 </h3>
-                                <span>System Project</span>
+                                <span>Desenvolvimento e impressão 3D de próteses infantis</span>
                             </div>
                         </div>
                     </div>
 
-                    <div className="col-lg-6 col-md-6">
+                    {/* <div className="col-lg-6 col-md-6">
                         <div className="single-projects-box">
                             <div className="image">
                                 <img src={project2} alt="about" />
@@ -137,7 +137,7 @@ const TwoColumns = () => {
                                 <span>Science Projects</span>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
