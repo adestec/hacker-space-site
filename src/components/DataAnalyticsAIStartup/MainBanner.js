@@ -29,7 +29,7 @@ const MainBanner = () => {
             <ModalVideo 
                 channel='youtube' 
                 isOpen={!isOpen} 
-                videoId='bk7McNUjWgw' 
+                videoId='onkZz_VdQ4Q' 
                 onClose={() => setIsOpen(!isOpen)} 
             />
 
