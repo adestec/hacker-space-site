@@ -9,13 +9,13 @@ const Funfacts = () => {
         <div className="funfacts-area pb-70">
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-3 col-sm-6 col-6 col-md-3">
+                    <div className="col-lg-3 col-sm-6 col-6 col-md-4">
                         <div className="single-funfacts-box">
                             <div className="icon">
                                 <img src={icon1} alt="banner" />
                             </div>
-                            <h3>10 Years</h3>
-                            <p>On the market</p>
+                            <h3>Infra</h3>
+                            <p>Possuimos infra-estrutura completa</p>
                         </div>
                     </div>
 
@@ -24,8 +24,8 @@ const Funfacts = () => {
                             <div className="icon">
                                 <img src={icon2} alt="banner" />
                             </div>
-                            <h3>45+</h3>
-                            <p>Team members</p>
+                            <h3>20+</h3>
+                            <p>Membros da Comunidade</p>
                         </div>
                     </div>
 
@@ -34,8 +34,8 @@ const Funfacts = () => {
                             <div className="icon">
                                 <img src={icon3} alt="banner" />
                             </div>
-                            <h3>100%</h3>
-                            <p>Satisfaction rate</p>
+                            <h3>100% Open</h3>
+                            <p>Prestação de contas 100% pública</p>
                         </div>
                     </div>
 
@@ -44,8 +44,8 @@ const Funfacts = () => {
                             <div className="icon">
                                 <img src={icon4} alt="banner" />
                             </div>
-                            <h3>80%</h3>
-                            <p>Senior scientist</p>
+                            <h3>Community</h3>
+                            <p>Projetos voltados a comunidade</p>
                         </div>
                     </div>
                 </div>
