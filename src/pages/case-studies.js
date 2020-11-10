@@ -11,10 +11,10 @@ const CaseStudies = () => {
         <Layout>
             <Navbar />
             <PageBanner
-                pageTitle="Case Studies 2 Columns" 
+                pageTitle="Projetos" 
                 homePageText="Home" 
                 homePageUrl="/" 
-                activePageText="Case Studies 2 Columns" 
+                activePageText="Projetos" 
             />
            <TwoColumns />
             <Footer />
