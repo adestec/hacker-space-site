@@ -24,7 +24,7 @@ const AboutUs = () => {
                             <div className="content">
                                 <span className="sub-title">
                                     <img src={starIcon} alt="banner" /> 
-                                    Sobre o Espaço
+                                    Sobre o Hacker Space
                                 </span>
                                 <h2>Equipamentos disponiveis para comunidade e startups</h2>
                                 <p>Contamos com uma gama completa de equipamentos para prototipação, testes, e criação.</p>
