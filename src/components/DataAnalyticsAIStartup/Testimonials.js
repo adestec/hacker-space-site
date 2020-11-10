@@ -45,10 +45,10 @@ const Testimonials = () => {
                 <div className="section-title">
                     <span className="sub-title">
                         <img src={starIcon} alt="testimonial" /> 
-                        Testimonials
+                        Depoimentos
                     </span>
-                    <h2>What Our Clients are Saying?</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                    <h2>Oque estão falando sobre nós?</h2>
+                    <p>Veja alguns depoimentos de apoiadores, participantes e organizadores do nosso espaço!</p>
                 </div>
 
                 {display ? <OwlCarousel 
@@ -62,8 +62,8 @@ const Testimonials = () => {
                             <div className="d-flex justify-content-center align-items-center">
                                 <img src={client1} alt="testimonial" />
                                 <div className="title">
-                                    <h3>Alex Maxwell</h3>
-                                    <span>CEO at EnvyTheme</span>
+                                    <h3>John Doe</h3>
+                                    <span>CEO</span>
                                 </div>
                             </div>
                         </div>
@@ -76,8 +76,8 @@ const Testimonials = () => {
                             <div className="d-flex justify-content-center align-items-center">
                                 <img src={client2} alt="testimonial" />
                                 <div className="title">
-                                    <h3>David Warner</h3>
-                                    <span>CEO at Envato</span>
+                                    <h3>John Doe</h3>
+                                    <span>CEO</span>
                                 </div>
                             </div>
                         </div>
@@ -89,8 +89,8 @@ const Testimonials = () => {
                             <div className="d-flex justify-content-center align-items-center">
                                 <img src={client3} alt="testimonial" />
                                 <div className="title">
-                                    <h3>Sarah Taylor</h3>
-                                    <span>CEO at ThemeForest</span>
+                                    <h3>John Doe</h3>
+                                    <span>CEO</span>
                                 </div>
                             </div>
                         </div>
@@ -100,7 +100,7 @@ const Testimonials = () => {
                 <div className="testimonials-view-btn text-center">
                     <Link to="/testimonials" className="default-btn">
                         <i className="flaticon-view"></i> 
-                        Check Out All Reviews <span></span>
+                        + Depoimentos<span></span>
                     </Link>
                 </div>
             </div>
