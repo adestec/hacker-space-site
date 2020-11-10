@@ -48,15 +48,15 @@ const TeamMembers = () => {
                         <div className="scientist-section-title">
                             <span className="sub-title">
                                 <img src={starIcon} alt="banner" /> 
-                                Our Team
+                                Nossos Membros!
                             </span>
-                            <h2>Meet Our Data Scientist Preparing For Your Business Success</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                            <h2>Conheça um pouco mais sobre nossos membros!</h2>
+                            <p>Procure amigos, colaboradores, sócios. Nossos membros são extraordinários e estão dispostos a mudar o mundo.</p>
+                            <p></p>
 
                             <Link to="/team" className="default-btn">
                                 <i className="flaticon-view"></i>
-                                View Our Team <span></span>
+                                Ver Membros <span></span>
                             </Link>
                         </div>
                     </div>
