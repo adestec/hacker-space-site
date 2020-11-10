@@ -16,10 +16,11 @@ const StartProject = () => {
 
                     <div className="col-lg-6 col-md-12">
                         <div className="project-start-content">
-                            <h2>We Like to Start Your Project With Us</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                            <Link to="/contact" className="default-btn">
-                                <i className="flaticon-web"></i> Get Started <span></span>
+                            <h2>De um Start em sua StartUp!</h2>
+                            <p>Você tem uma ideia de projeto e precisa de ajuda para desenvolve-la?.</p>
+                            <p>Traga sua ideia para nosso espaço!</p>
+                            <Link to="https://docs.google.com/forms/d/e/1FAIpQLSd92zr9s1frcDHg25B0MXFSDZTrRQWMBPk5Y-a8p5Nw_He_bw/viewform?usp=sf_link" className="default-btn">
+                                <i className="flaticon-web"></i> Inscrever-se <span></span>
                             </Link>
                         </div>
                     </div>
