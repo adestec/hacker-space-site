@@ -1,25 +1,34 @@
 import React from 'react'
 import {Link} from 'gatsby'
+import icon1 from '../../assets/images/services/adestec.png'
+import icon2 from '../../assets/images/services/eletronop.png'
+import icon3 from '../../assets/images/services/zepelim-icone.png'
 
 const ServicesOne = () => {
     return (
         <section className="solutions-area pt-100 pb-70">
             <div className="container">
+            <div>
+              <ul>
+                <h2>Padrinhos</h2>
+                <p></p>
+              </ul>
+              </div>
                 <div className="row">
                     <div className="col-lg-4 col-md-6 col-sm-6">
                         <div className="single-solutions-box">
                             <div className="icon">
-                                <i className="flaticon-rocket"></i>
+                            <img src={icon1} alt="image" />
                             </div>
                             <h3>
-                                <Link to="/service-details">
-                                Startup Applications
+                                <Link to="https://adestec.org.br/">
+                                 Adestec Obra Padre Pio
                                 </Link>
                             </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna adipiscing aliqua.</p>
+                            <p>Descrição</p>
 
-                            <Link className="view-details-btn" to="/service-details">
-                                View Details
+                            <Link className="view-details-btn" to="https://adestec.org.br/">
+                                Site
                             </Link>
                         </div>
                     </div>
@@ -27,19 +36,19 @@ const ServicesOne = () => {
                     <div className="col-lg-4 col-md-6 col-sm-6">
                         <div className="single-solutions-box">
                             <div className="icon">
-                                <i className="flaticon-laptop"></i>
+                            <img src={icon2} alt="image" />
                             </div>
    
                             <h3>
-                                <Link to="/service-details">
-                                SaaS Solutions
+                                <Link to="https://www.facebook.com/eletronop.materiaiseletricos/">
+                                 Eletronop
                                 </Link>
                             </h3>
 
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna adipiscing aliqua.</p>
+                            <p>Descrição.</p>
                             
-                            <Link className="view-details-btn" to="/service-details">
-                                View Details
+                            <Link className="view-details-btn" to="https://www.facebook.com/eletronop.materiaiseletricos/">
+                                Site
                             </Link>
                         </div>
                     </div>
@@ -47,79 +56,19 @@ const ServicesOne = () => {
                     <div className="col-lg-4 col-md-6 col-sm-6">
                         <div className="single-solutions-box">
                             <div className="icon">
-                                <i className="flaticon-money"></i>
+                            <img src={icon3} alt="image" />
                             </div>
 
                             <h3>
-                                <Link to="/service-details">
-                                eCommerce Platforms
+                                <Link to="www.zepelim.dev">
+                                Zepelim Fábrica de Software
                                 </Link>
                             </h3>
 
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna adipiscing aliqua.</p>
+                            <p>Uma fábrica de software focada no produto, que tem muito orgulho de investir na comunidade Sinopense.</p>
                             
-                            <Link className="view-details-btn" to="/service-details">
-                                View Details
-                            </Link>
-                        </div>
-                    </div>
-
-                    <div className="col-lg-4 col-md-6 col-sm-6">
-                        <div className="single-solutions-box">
-                            <div className="icon">
-                                <i className="flaticon-segmentation"></i>
-                            </div>
-
-                            <h3>
-                                <Link to="/service-details">
-                                Research
-                                </Link>
-                            </h3>
-
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna adipiscing aliqua.</p>
-                           
-                            <Link className="view-details-btn" to="/service-details">
-                                View Details
-                            </Link>
-                        </div>
-                    </div>
-
-                    <div className="col-lg-4 col-md-6 col-sm-6">
-                        <div className="single-solutions-box">
-                            <div className="icon">
-                                <i className="flaticon-analytics"></i>
-                            </div>
-
-                            <h3>
-                                <Link to="/service-details">
-                                Analytics
-                                </Link>
-                            </h3>
-
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna adipiscing aliqua.</p>
-                            
-                            <Link className="view-details-btn" to="/service-details">
-                                View Details
-                            </Link>
-                        </div>
-                    </div>
-
-                    <div className="col-lg-4 col-md-6 col-sm-6">
-                        <div className="single-solutions-box">
-                            <div className="icon">
-                                <i className="flaticon-settings"></i>
-                            </div>
-
-                            <h3>
-                                <Link to="/service-details">
-                                Technology
-                                </Link>
-                            </h3>
-
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna adipiscing aliqua.</p>
-                            
-                            <Link className="view-details-btn" to="/service-details">
-                                View Details
+                            <Link className="view-details-btn" to="www.zepelim.dev">
+                                Site
                             </Link>
                         </div>
                     </div>
