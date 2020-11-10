@@ -17,12 +17,12 @@ const StartProject = () => {
 
                     <div className="col-lg-6 col-md-12">
                         <div className="project-start-content">
-                            <h2>We Like to Start Your Project With Us</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                            <h2>Torne-se um apoiador</h2>
+                            <p>Invista no aprendizado e desenvolvimento social! Todo dinheiro arrecadado e utilizado para manutenção do hacker space.</p>
 
-                            <Link to="/contact" className="default-btn">
+                            <Link to="https://docs.google.com/forms/d/e/1FAIpQLSfdAqPwTrA9K63HhPIUSjnnDNyGk9lN12YMUKK9nKqR6qsiyg/viewform?usp=sf_link" className="default-btn">
                                 <i className="flaticon-web"></i> 
-                                Get Started 
+                                Apoiar!
                                 <span></span>
                             </Link>
                         </div>
