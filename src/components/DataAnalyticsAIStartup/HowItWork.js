@@ -13,7 +13,7 @@ const HowItWork = () => {
                 <div className="section-title">
                     <span className="sub-title">
                         <img src={starIcon} alt="banner" /> 
-                        How It's Work
+                        Seja um membro!
                     </span>
                     <h2>Our Data Analytics Process</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
