@@ -291,7 +291,7 @@ const Navbar = () => {
                                     </li>
 
 
-                                    <li className="nav-item">
+                                    {/* <li className="nav-item">
                                         <Link 
                                             to="#" 
                                             activeClassName="active"
@@ -313,7 +313,7 @@ const Navbar = () => {
                                                 </Link>
                                             </li>
                                         </ul>
-                                    </li>
+                                    </li> */}
                                 </ul>
                             
                                 <div className="others-option d-flex align-items-center">
