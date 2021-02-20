@@ -20,8 +20,8 @@ const TeamStyleOne = () => {
                                 <img src={scientist1} alt="about" />
                             </div>
                             <div className="content">
-                                <h3>Merv Adrian</h3>
-                                <span>Data Management</span>
+                                <h3>Liniker</h3>
+                                <span>Jedi Iniciado</span>
 
                                 <ul className="social">
                                     <li>
@@ -55,9 +55,9 @@ const TeamStyleOne = () => {
                                 <img src={scientist2} alt="about" />
                             </div>
                             <div className="content">
-                                <h3>Kirk Borne</h3>
-                                <span>Data Scientist</span>
-                                
+                                <h3>João Pedro</h3>
+                                <span>Jedi Padawan</span>
+
                                 <ul className="social">
                                     <li>
                                         <Link to="#" className="d-block" target="_blank">
@@ -90,9 +90,9 @@ const TeamStyleOne = () => {
                                 <img src={scientist3} alt="about" />
                             </div>
                             <div className="content">
-                                <h3>Carla Gentry</h3>
-                                <span>Analytical Solutions</span>
-                                
+                                <h3>Marta</h3>
+                                <span>Jedi Cavaleiro</span>
+
                                 <ul className="social">
                                     <li>
                                         <Link to="#" className="d-block" target="_blank">
@@ -125,44 +125,9 @@ const TeamStyleOne = () => {
                                 <img src={scientist4} alt="about" />
                             </div>
                             <div className="content">
-                                <h3>Marie Curie</h3>
-                                <span>Data Scientist</span>
-                                
-                                <ul className="social">
-                                    <li>
-                                        <Link to="#" className="d-block" target="_blank">
-                                            <i className='bx bxl-facebook'></i>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link to="#" className="d-block" target="_blank">
-                                            <i className='bx bxl-twitter'></i>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link to="#" className="d-block" target="_blank">
-                                            <i className='bx bxl-instagram'></i>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link to="#" className="d-block" target="_blank">
-                                            <i className='bx bxl-linkedin'></i>
-                                        </Link>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
- 
-                    <div className="col-lg-3 col-sm-6">
-                        <div className="single-scientist-box">
-                            <div className="image">
-                                <img src={scientist5} alt="about" />
-                            </div>
-                            <div className="content">
-                                <h3>Alina Sophia</h3>
-                                <span>Data Management</span>
-                                
+                                <h3>Paulo</h3>
+                                <span>Jedi Mestre</span>
+
                                 <ul className="social">
                                     <li>
                                         <Link to="#" className="d-block" target="_blank">
@@ -189,110 +154,6 @@ const TeamStyleOne = () => {
                         </div>
                     </div>
 
-                    <div className="col-lg-3 col-sm-6">
-                        <div className="single-scientist-box">
-                            <div className="image">
-                                <img src={scientist6} alt="about" />
-                            </div>
-                            <div className="content">
-                                <h3>Liam Oliver</h3>
-                                <span>Data Scientist</span>
-                                
-                                <ul className="social">
-                                    <li>
-                                        <Link to="#" className="d-block" target="_blank">
-                                            <i className='bx bxl-facebook'></i>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link to="#" className="d-block" target="_blank">
-                                            <i className='bx bxl-twitter'></i>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link to="#" className="d-block" target="_blank">
-                                            <i className='bx bxl-instagram'></i>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link to="#" className="d-block" target="_blank">
-                                            <i className='bx bxl-linkedin'></i>
-                                        </Link>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="col-lg-3 col-sm-6">
-                        <div className="single-scientist-box">
-                            <div className="image">
-                                <img src={scientist7} alt="about" />
-                            </div>
-                            <div className="content">
-                                <h3>Emma Olivia</h3>
-                                <span>Analytical Solutions</span>
-                                
-                                <ul className="social">
-                                    <li>
-                                        <Link to="#" className="d-block" target="_blank">
-                                            <i className='bx bxl-facebook'></i>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link to="#" className="d-block" target="_blank">
-                                            <i className='bx bxl-twitter'></i>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link to="#" className="d-block" target="_blank">
-                                            <i className='bx bxl-instagram'></i>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link to="#" className="d-block" target="_blank">
-                                            <i className='bx bxl-linkedin'></i>
-                                        </Link>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="col-lg-3 col-sm-6">
-                        <div className="single-scientist-box">
-                            <div className="image">
-                                <img src={scientist8} alt="about" />
-                            </div>
-                            <div className="content">
-                                <h3>Elijah William</h3>
-                                <span>Data Scientist</span>
-                                
-                                <ul className="social">
-                                    <li>
-                                        <Link to="#" className="d-block" target="_blank">
-                                            <i className='bx bxl-facebook'></i>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link to="#" className="d-block" target="_blank">
-                                            <i className='bx bxl-twitter'></i>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link to="#" className="d-block" target="_blank">
-                                            <i className='bx bxl-instagram'></i>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link to="#" className="d-block" target="_blank">
-                                            <i className='bx bxl-linkedin'></i>
-                                        </Link>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>

@@ -10,10 +10,10 @@ const MembershipLevels = () => {
         <Layout>
             <Navbar />
             <PageBanner
-                pageTitle="Planos para Apoiadores" 
-                homePageText="Home" 
-                homePageUrl="/" 
-                activePageText="Planos" 
+                pageTitle="Planos para Apoiadores"
+                homePageText="Home"
+                homePageUrl="/"
+                activePageText="Planos"
             />
 
             <div className="membership-levels-area ptb-100">
@@ -41,10 +41,16 @@ const MembershipLevels = () => {
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Postagens de Acradescimento mês</td>
+                                    <td>Postagens de Agradescimento mês</td>
                                     <td>1</td>
+                                    <td>2</td>
                                     <td>4</td>
-                                    <td>8</td>
+                                </tr>
+                                <tr>
+                                    <td>Logo exposta na televisão do Hacker Space</td>
+                                    <td>20 Segundos</td>
+                                    <td>20 Segundos</td>
+                                    <td>40 Segundos</td>
                                 </tr>
                                 <tr>
                                     <td>
@@ -59,7 +65,7 @@ const MembershipLevels = () => {
                                 <tr>
                                     <td>
                                         <Link to="#">
-                                           Opcão 2
+                                           Logo exposta no site do Hacker Space
                                         </Link>
                                     </td>
                                     <td className="item-check"><i className='bx bx-check'></i></td>
@@ -69,7 +75,7 @@ const MembershipLevels = () => {
                                 <tr>
                                     <td>
                                         <Link to="#">
-                                            Utilização do espaço para treinamento de equipe.
+                                            Banner exposto em eventos do Hacker Space
                                         </Link>
                                     </td>
                                     <td className="item-none"><i className='bx bx-x'></i></td>
