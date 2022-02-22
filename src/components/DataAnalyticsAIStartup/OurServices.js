@@ -4,7 +4,7 @@ import starIcon from '../../assets/images/star-icon.png'
 import icon1 from '../../assets/images/services/adestec.png'
 import icon2 from '../../assets/images/services/eletronop.png'
 import icon3 from '../../assets/images/services/zepelim-icone.png'
-import icon4 from '../../assets/images/services/service-icon4.png'
+import icon4 from '../../assets/images/services/jmd-icon-logo.png'
 import icon5 from '../../assets/images/services/service-icon5.png'
 import icon6 from '../../assets/images/services/service-icon6.png'
 import shape1 from '../../assets/images/services/service-shape1.png'
@@ -39,6 +39,31 @@ const OurServices = () => {
                                 
                             <Link to="https://adestec.org.br/" className="default-btn">
                                 <i className="flaticon-right"></i> 
+                                Site <span></span>
+                            </Link>
+
+                            <div className="shape1">
+                                <img src={shape1} alt="image" />
+                            </div>
+                            <div className="shape2">
+                                <img src={shape2} alt="image" />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-lg-4 col-md-6 col-sm-6">
+                        <div className="single-services-item">
+                            <div className="icon">
+                                <img src={icon4} alt="image" />
+                            </div>
+                            <h3>
+                                <Link to="https://jmdurbanismo.com.br/">
+                                    JMD Urbanismo
+                                </Link>
+                            </h3>
+                            <p><h2>Padrinho</h2></p>
+
+                            <Link to="https://jmdurbanismo.com.br/" className="default-btn">
+                                <i className="flaticon-right"></i>
                                 Site <span></span>
                             </Link>
 
