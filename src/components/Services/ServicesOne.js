@@ -3,6 +3,7 @@ import {Link} from 'gatsby'
 import icon1 from '../../assets/images/services/adestec.png'
 import icon2 from '../../assets/images/services/eletronop.png'
 import icon3 from '../../assets/images/services/zepelim-icone.png'
+import icon4 from '../../assets/images/services/jmd-icon-logo.png'
 
 const ServicesOne = () => {
     return (
@@ -25,13 +26,29 @@ const ServicesOne = () => {
                                  Adestec Obra Padre Pio
                                 </Link>
                             </h3>
-                            <p>Descrição</p>
 
                             <Link className="view-details-btn" to="https://adestec.org.br/">
                                 Site
                             </Link>
                         </div>
                     </div>
+
+                        <div className="col-lg-4 col-md-6 col-sm-6">
+                            <div className="single-solutions-box">
+                                <div className="icon">
+                                    <img src={icon4} alt="image" />
+                                </div>
+                                <h3>
+                                    <Link to="https://jmdurbanismo.com.br/">
+                                        JMD Urbanismo
+                                    </Link>
+                                </h3>
+
+                                <Link className="view-details-btn" to="https://adestec.org.br/">
+                                    Site
+                                </Link>
+                            </div>
+                        </div>
 
                     <div className="col-lg-4 col-md-6 col-sm-6">
                         <div className="single-solutions-box">
@@ -44,8 +61,6 @@ const ServicesOne = () => {
                                  Eletronop
                                 </Link>
                             </h3>
-
-                            <p>Descrição.</p>
                             
                             <Link className="view-details-btn" to="https://www.facebook.com/eletronop.materiaiseletricos/">
                                 Site
@@ -65,8 +80,6 @@ const ServicesOne = () => {
                                 </Link>
                             </h3>
 
-                            <p>Uma fábrica de software focada no produto, que tem muito orgulho de investir na comunidade Sinopense.</p>
-                            
                             <Link className="view-details-btn" to="www.zepelim.dev">
                                 Site
                             </Link>

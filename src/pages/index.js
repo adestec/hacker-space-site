@@ -27,10 +27,7 @@ const Home = () => {
       <OurServices />
       <HowItWork />
       <TeamMembers />
-      <Testimonials />
-      <Partner />
       <StartProject />
-      <OurBlog />
       
       <Footer />
     </Layout>
